@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv){
   
-  int i,flag1=0,flag2=0,flag3=0,j,count=0;
+  int i,flag1=0,flag2=0,flag3=0,j;
   Stack s;
   s.top=NULL;
   s.size=0;
@@ -48,7 +48,6 @@ int main(int argc, char **argv){
      flag1 = 0;
      flag2 = 0;
      flag3 = 0;
-     count = 0;
      pop_all(&s);
   }
    return 0;
